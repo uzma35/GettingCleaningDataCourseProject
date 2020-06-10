@@ -1,4 +1,7 @@
+# loading library
+library(dplyr)
 
+# downloading dataset
 filename <- "Coursera_GC_Project.zip"
 # if archieve already exists
 if (!file.exists(filename)){
